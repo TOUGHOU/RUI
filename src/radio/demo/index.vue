@@ -63,6 +63,27 @@
       </van-radio-group>
     </demo-block>
 
+    <demo-block title="展示方向">
+      <van-radio-group
+        v-model="radio5"
+        class="demo-radio-group"
+        orientation="row"
+      >
+        <van-radio name="1">
+          {{ $t('radio') }} 1
+          <template #icon="{ checked }">
+            <img :src="checked ? icon.active : icon.inactive">
+          </template>
+        </van-radio>
+        <van-radio name="2">
+          {{ $t('radio') }} 2
+          <template #icon="{ checked }">
+            <img :src="checked ? icon.active : icon.inactive">
+          </template>
+        </van-radio>
+      </van-radio-group>
+    </demo-block>
+
     <demo-block :title="$t('withCell')">
       <van-radio-group v-model="radio5">
         <van-cell-group>
@@ -120,6 +141,7 @@ export default {
       radio3: '1',
       radio4: '1',
       radio5: '1',
+      radio6: '6',
       icon: {
         active: 'https://img.yzcdn.cn/vant/user-active.png',
         inactive: 'https://img.yzcdn.cn/vant/user-inactive.png'
