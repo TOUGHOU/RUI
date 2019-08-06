@@ -1,6 +1,6 @@
 <div class="card">
   <div class="van-doc-intro">
-    <img class="van-doc-intro__logo" style="width: 120px; height: 120px; box-shadow: none;" src="https://img.yzcdn.cn/vant/logo.png">
+    <img class="van-doc-intro__logo" style="width: 120px; height: 120px; box-shadow: none;" src="http://img.bestmath.cn/applet/images/mine/syshead.png">
     <h2 style="margin: 0; font-size: 36px; line-height: 60px;">Vant</h2>
     <p>轻量、可靠的移动端 Vue 组件库</p>
   </div>
@@ -8,14 +8,14 @@
 
 ### 特性
 
-* 60+ 个组件
-* 90% 单元测试覆盖率
-* 完善的中英文文档和示例
-* 支持按需引入
-* 支持主题定制
-* 支持国际化
-* 支持 TS
-* 支持 SSR
+- 60+ 个组件
+- 90% 单元测试覆盖率
+- 完善的中英文文档和示例
+- 支持按需引入
+- 支持主题定制
+- 支持国际化
+- 支持 TS
+- 支持 SSR
 
 ### 快速上手
 
@@ -45,13 +45,12 @@
 - <a target="_blank" href="https://tech.youzan.com/tag/front-end/">团队博客</a>
 - <a target="_blank" href="https://github.com/youzan">开源项目</a>
 
-
 ### 链接
 
-* [意见反馈](https://github.com/youzan/vant/issues)
-* [更新日志](#/zh-CN/changelog)
-* [Vant 示例仓库](https://github.com/youzan/vant-demo)
-* [VantWeapp 小程序组件](https://github.com/youzan/vant-weapp)
+- [意见反馈](https://github.com/youzan/vant/issues)
+- [更新日志](#/zh-CN/changelog)
+- [Vant 示例仓库](https://github.com/youzan/vant-demo)
+- [VantWeapp 小程序组件](https://github.com/youzan/vant-weapp)
 
 ### 开源协议
 

@@ -15,7 +15,7 @@ export default {
   'zh-CN': {
     header: {
       logo: {
-        image: 'https://img.yzcdn.cn/vant/logo.png',
+        image: 'http://img.bestmath.cn/applet/images/mine/syshead.png',
         title: 'JXH',
         href: '#/'
       },
