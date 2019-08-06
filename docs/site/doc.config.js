@@ -4,7 +4,7 @@ const { version } = pkgJson;
 
 export const searchConfig = {
   apiKey: '90067aecdaa2c85220e2783cd305caac',
-  indexName: 'vant'
+  indexName: 'RUI'
 };
 
 export const versions = [version, '1.x'];
