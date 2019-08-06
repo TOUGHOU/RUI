@@ -99,10 +99,11 @@ export default createComponent({
 
     const hasButtons = this.showCancelButton && this.showConfirmButton;
     const ButtonGroup = (
-      <div class={['van-hairline--top', bem('footer', { buttons: hasButtons })]}>
+      <div class={[bem('footer', { buttons: hasButtons })]}>
         {this.showCancelButton && (
           <Button
-            size="large"
+            round
+            size="small"
             class={bem('cancel')}
             loading={this.loading.cancel}
             text={this.cancelButtonText || t('cancel')}
@@ -114,9 +115,11 @@ export default createComponent({
         )}
         {this.showConfirmButton && (
           <Button
-            size="large"
+            round
+            size="small"
             class={[bem('confirm'), { 'van-hairline--left': hasButtons }]}
             loading={this.loading.confirm}
+            type="primary"
             text={this.confirmButtonText || t('confirm')}
             style={{ color: this.confirmButtonColor }}
             onClick={() => {

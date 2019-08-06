@@ -1,23 +1,23 @@
 // Basic Colors
 @black: #000;
 @white: #fff;
-@red: #FF2D16;
-@red-drak: #C90000;
+@red: #ff2d16;
+@red-drak: #c90000;
 @blue: #1989fa;
-@blue-light: #5BC4DA;
-@yellow: #FFA60A;
-@orange: #FE681C;
-@orange-dark: #FF5A00;
-@orange-light: #FFE9DE;
-@green: #00C93D;
-@gray: #F5F5F5;
-@gray-light: #E6E6E6;
+@blue-light: #5bc4da;
+@yellow: #ffa60a;
+@orange: #fe681c;
+@orange-dark: #ff5a00;
+@orange-light: #ffe9de;
+@green: #00c93d;
+@gray: #f5f5f5;
+@gray-light: #e6e6e6;
 @gray-darker: #666;
 @gray-dark: #999999;
 
 // Component Colors
 @text-color: #323232;
-@border-color: #E6E6E6;
+@border-color: #e6e6e6;
 @active-color: #f2f3f5;
 @background-color: #f8f8f8;
 @background-color-light: #fafafa;
@@ -37,8 +37,8 @@
 @font-size-lg: 16px;
 
 // Animation
-@animation-duration-base: .3s;
-@animation-duration-fast: .2s;
+@animation-duration-base: 0.3s;
+@animation-duration-fast: 0.2s;
 
 // ActionSheet
 @action-sheet-max-height: 90%;
@@ -109,7 +109,7 @@
 @button-border-radius: 2px;
 @button-round-border-radius: 10em;
 @button-plain-background-color: @white;
-@button-disabled-opacity: .5;
+@button-disabled-opacity: 0.5;
 
 // Card
 @card-padding: @padding-xs @padding-md;
@@ -227,7 +227,8 @@
 @coupon-list-empty-tip-line-height: 20px;
 
 // Dialog
-@dialog-width: 85%;
+@dialog-width: 80%;
+@dialog-min-height: 200px;
 @dialog-font-size: @font-size-lg;
 @dialog-transition: @animation-duration-base;
 @dialog-border-radius: 4px;
@@ -322,7 +323,7 @@
 // ImagePreview
 @image-preview-index-text-color: @white;
 @image-preview-index-font-size: @font-size-md;
-@image-preview-overlay-background-color: rgba(0, 0, 0, .9);
+@image-preview-overlay-background-color: rgba(0, 0, 0, 0.9);
 
 // List
 @list-icon-margin-right: 5px;
@@ -416,7 +417,7 @@
 @picker-action-active-color: @active-color;
 @picker-option-font-size: @font-size-lg;
 @picker-option-text-color: @black;
-@picker-option-disabled-opacity: .3;
+@picker-option-disabled-opacity: 0.3;
 
 // Popup
 @popup-background-color: @white;
@@ -453,7 +454,7 @@
 
 // Search
 @search-padding: 10px @padding-sm;
-@search-background-color: #f7f8fA;
+@search-background-color: #f7f8fa;
 @search-input-height: 34px;
 @search-label-padding: 0 5px;
 @search-label-color: @text-color;
@@ -488,12 +489,12 @@
 // Slider
 @slider-active-background-color: @blue;
 @slider-inactive-background-color: @gray-light;
-@slider-disabled-opacity: .3;
+@slider-disabled-opacity: 0.3;
 @slider-button-width: 20px;
 @slider-button-height: 20px;
 @slider-button-border-radius: 50%;
 @slider-button-background-color: @white;
-@slider-button-box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+@slider-button-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 
 // Step
 @step-text-color: @gray-dark;
@@ -548,7 +549,7 @@
 @swipe-indicator-size: 6px;
 @swipe-indicator-margin: @padding-sm;
 @swipe-indicator-active-opacity: 1;
-@swipe-indicator-inactive-opacity: .3;
+@swipe-indicator-inactive-opacity: 0.3;
 @swipe-indicator-active-background-color: @orange-dark;
 @swipe-indicator-inactive-background-color: @border-color;
 
@@ -558,12 +559,13 @@
 @switch-node-size: 1em;
 @switch-node-z-index: 1;
 @switch-node-background-color: @white;
-@switch-node-box-shadow: 0 3px 1px 0 rgba(0, 0, 0, .05), 0 2px 2px 0 rgba(0, 0, 0, .1), 0 3px 3px 0 rgba(0, 0, 0, .05);
+@switch-node-box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.05), 0 2px 2px 0 rgba(0, 0, 0, 0.1),
+  0 3px 3px 0 rgba(0, 0, 0, 0.05);
 @switch-background-color: @white;
 @switch-on-background-color: @orange-dark;
 @switch-transition-duration: @animation-duration-base;
-@switch-disabled-opacity: .4;
-@switch-border: 1px solid rgba(0, 0, 0, .1);
+@switch-disabled-opacity: 0.4;
+@switch-border: 1px solid rgba(0, 0, 0, 0.1);
 
 // SwitchCell
 @switch-cell-padding-top: @cell-vertical-padding - 1px;
@@ -598,13 +600,13 @@
 @tabs-bottom-bar-color: @tabs-default-color;
 
 // Tag
-@tag-padding: .3em .8em;
+@tag-padding: 0.3em 0.8em;
 @tag-font-size: @font-size-xs;
 @tag-medium-font-size: @font-size-sm;
 @tag-large-font-size: @font-size-md;
 @tag-text-color: @white;
-@tag-border-radius: .4em;
-@tag-round-border-radius: .8em;
+@tag-border-radius: 0.4em;
+@tag-round-border-radius: 0.8em;
 @tag-dander-color: @red;
 @tag-primary-color: @blue;
 @tag-success-color: @orange-light;
@@ -617,7 +619,7 @@
 @toast-text-color: @white;
 @toast-line-height: 20px;
 @toast-border-radius: 4px;
-@toast-background-color: rgba(@text-color, .88);
+@toast-background-color: rgba(@text-color, 0.88);
 @toast-icon-size: 40px;
 @toast-text-min-width: 96px;
 @toast-text-padding: @padding-xs @padding-sm;
@@ -648,7 +650,7 @@
 @uploader-upload-border-color: @gray-light;
 @uploader-upload-background-color: @white;
 @uploader-delete-color: @white;
-@uploader-delete-background-color: rgba(0, 0, 0, .45);
+@uploader-delete-background-color: rgba(0, 0, 0, 0.45);
 @uploader-file-background-color: @background-color;
 @uploader-file-icon-size: 20px;
 @uploader-file-icon-color: @gray-darker;
@@ -658,4 +660,4 @@
 // Sku
 @sku-item-background-color: #f7f8fa;
 @sku-icon-gray-color: #dcdde0;
-@sku-upload-mask-color: rgba(50, 50, 51, .8);
+@sku-upload-mask-color: rgba(50, 50, 51, 0.8);
