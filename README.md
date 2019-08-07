@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  🔥 <a href="https://youzan.github.io/vant">文档网站</a>
+  🔥 <a href="http://192.168.0.167:8080">文档网站</a>
   &nbsp;
   🇨🇳 <a href="./README.zh-CN.md">中文版介绍</a>
   &nbsp;
@@ -26,14 +26,14 @@
 
 ## Features
 
-* 60+ Reusable components
-* 90% Unit test coverage
-* Extensive documentation and demos
-* Support [babel-plugin-import](https://github.com/ant-design/babel-plugin-import)
-* Support Custom Theme
-* Support i18n
-* Support TS
-* Support SSR
+- 60+ Reusable components
+- 90% Unit test coverage
+- Extensive documentation and demos
+- Support [babel-plugin-import](https://github.com/ant-design/babel-plugin-import)
+- Support Custom Theme
+- Support i18n
+- Support TS
+- Support SSR
 
 ## Install
 
@@ -67,10 +67,10 @@ Modern browsers and Android 4.0+, iOS 6+.
 
 ## Links
 
-* [Documentation](https://youzan.github.io/vant)
-* [Changelog](https://youzan.github.io/vant#/en-US/changelog)
-* [Vant Demo](https://github.com/youzan/vant-demo)
-* [Vant Weapp](https://github.com/youzan/vant-weapp)
+- [Documentation](https://youzan.github.io/vant)
+- [Changelog](https://youzan.github.io/vant#/en-US/changelog)
+- [Vant Demo](https://github.com/youzan/vant-demo)
+- [Vant Weapp](https://github.com/youzan/vant-weapp)
 
 ## Preview
 

@@ -1,7 +1,7 @@
 {
-  "name": "vant",
+  "name": "jxh-ui",
   "version": "2.1.1",
-  "description": "Mobile UI Components built on Vue",
+  "description": "Mobile UI Components built on Vue fork from vant",
   "main": "lib/index.js",
   "module": "es/index.js",
   "style": "lib/index.css",

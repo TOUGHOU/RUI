@@ -3,8 +3,8 @@ rm -rf docs/dist
 
 npx cross-env NODE_ENV=production webpack --config build/webpack.site.js
 
-superman-cdn cdn /vant ./docs/dist/*.js
+# superman-cdn cdn /vant ./docs/dist/*.js
 
 rm -rf docs/dist/*.js
 
-gh-pages -d docs/dist --add
+# gh-pages -d docs/dist --add
