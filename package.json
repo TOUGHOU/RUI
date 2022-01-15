@@ -96,7 +96,7 @@
     "lint-staged": "^9.2.1",
     "postcss": "^7.0.17",
     "postcss-loader": "^3.0.0",
-    "shelljs": "^0.8.3",
+    "shelljs": "^0.8.5",
     "signale": "^1.4.0",
     "style-loader": "^0.23.1",
     "stylelint": "^10.1.0",
